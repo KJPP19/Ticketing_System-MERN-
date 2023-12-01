@@ -39,3 +39,13 @@
     width: 140px;
     padding: 10px;
 }
+
+.ticket-list-btn {
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    background: none;
+    height: 46px;
+    width: 140px;
+    padding: 10px;
+}

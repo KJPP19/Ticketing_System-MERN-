@@ -13,11 +13,15 @@ function FirstNavBar () {
         setIsPopupOpen(false);
     };
 
+    const handleRefresh = () => {
+        window.location.reload(false);
+    };
+
     return (
         <div>
             <nav className="first-navbar-container">
                 <ul className="menu-items">
-                    <li><a href='#'>Ticket List</a></li>
+                    <li><button className='ticket-list-btn' onClick={handleRefresh} >Ticket List</button></li>
                     <li>
                         <button className="create-ticket-btn" onClick={openPopup}>Create Ticket</button>
                     </li>
