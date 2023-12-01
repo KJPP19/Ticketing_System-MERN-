@@ -1,0 +1,41 @@
+.first-navbar-container{
+    background-color: #F2F3F4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    height: 70px;
+}
+
+.menu-items {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.menu-items li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    padding: 13px;
+}
+
+.menu-items a:visited {
+    color: inherit;
+}
+
+.menu-items a:hover {
+    background-color: #C8E7F2;
+}
+
+.create-ticket-btn {
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #8DC9E1;
+    height: 46px;
+    width: 140px;
+    padding: 10px;
+}

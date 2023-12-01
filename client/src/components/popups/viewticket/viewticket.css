@@ -1,0 +1,52 @@
+.view-ticket-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+
+.view-ticket-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.view-ticket-container {
+    background-color: #FFFFFF;
+    padding: 1px;
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+}
+
+.ticket-name-header {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.title-and-close-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.view-ticket-close-btn {
+    border: 0;
+    background: none;
+    cursor: pointer;
+    color: red;
+}
+
+.view-ticket-overlay.open {
+    display: block;
+}
+
+.view-ticket-container.open {
+    display: block;
+} 

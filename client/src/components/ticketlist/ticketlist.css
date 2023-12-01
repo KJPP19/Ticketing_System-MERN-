@@ -1,0 +1,33 @@
+.ticket-list-header {
+    font-size: 60px;
+    font-weight: 200;
+    margin-left: 40px;
+}
+
+.ticket-table-container {
+    margin-left: 50px;
+}
+
+th {
+    background-color: #ABDBEC;
+    padding: 15px;
+    width: 180px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+tr {
+    cursor:default
+}
+
+tr:hover{
+    background-color: #F2F3F4;
+}
+
+td button {
+    width: 61px;
+    cursor: pointer;
+    border: 0;
+    background-color: #ABDBEC;
+    margin: 4px;
+}
