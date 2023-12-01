@@ -71,3 +71,9 @@
 .edit-ticket-dropdown {
     width: 258px
 }
+
+.edit-form-error-messages {
+    font-size: 12px;
+    color: red;
+    margin-bottom: 10px;
+}
