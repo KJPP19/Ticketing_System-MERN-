@@ -1,6 +1,6 @@
 # Initial Setup
 
-clone this repo using this command:
+clone this repo using this command: git clone https://github.com/KJPP19/Ticketing_System-MERN-.git
 
 ## install Dependencies
 
